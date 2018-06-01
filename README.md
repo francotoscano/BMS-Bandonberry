@@ -23,9 +23,13 @@ Uso de pines:
 
 
 ShutDownBot_IN= señal que recibe del botón de encendido/apagado.
+
 Boot_IN= señal de la raspberry que indica High=No apagar, Low=Se puede apagar.
+
 OnOff_OUT= señal que enciende el transistor, permitiendo alimentar todo el sistema. High=encendido todo el sistema, Low=Se corta la corriente de todo el sistema (A no ser que se apreiete el botón de encendido) 
+
 RaspOff_OUT=señal que indica a la raspberry que comience el proceso de preparación de apagado. (High 0.5 segundos es un reset, por más de 2  sec es comienzo de proceso de apagado, y por más de 8 sec es apagado forzado).
+
 
 OBS:La señal de Boot_IN se baja pero la luz de la raspberry se termina de apagar 8 sec después, considerar ese delay en el código
 
