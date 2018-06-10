@@ -36,3 +36,9 @@ OBS:La señal de Boot_IN se baja pero la luz de la raspberry se termina de apaga
 FOTO DEL CIRCUITO DEL BOTON
 
 
+
+EN RASPBERRY
+SHUTDOWN_IN = 12     #GPIO used for shutdown signal
+BOOT_OUT = 16         #GPIO used for boot signal
+
+
