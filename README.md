@@ -38,7 +38,9 @@ FOTO DEL CIRCUITO DEL BOTON
 
 
 EN RASPBERRY
-SHUTDOWN_IN = 12     #GPIO used for shutdown signal
-BOOT_OUT = 16         #GPIO used for boot signal
+
+SHUTDOWN_IN = 12    conectado a        RaspOff_OUT=8
+
+BOOT_OUT = 16       conectado a        RaspState_IN=6         
 
 
