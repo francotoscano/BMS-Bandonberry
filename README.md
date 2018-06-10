@@ -16,17 +16,17 @@ Uso de pines:
 |-              |SCL/D3         |11      |12      |A2          |-         |
 |-              |A6/D4          |13      |14      |A1          |-         |
 |ShutDownBot_IN |D5             |15      |16      |A0          |-         |
-|Boot_IN        |A7/D6          |17      |18      |D15/SCLK    |-         |
-|OnOff_OUT      |D7             |19      |20      |D14/MISO    |-         |
+|RaspState_IN   |A7/D6          |17      |18      |D15/SCLK    |-         |
+|PowerOnOff_OUT |D7             |19      |20      |D14/MISO    |-         |
 |RaspOff_OUT    |A8/D8          |21      |22      |D16/MOSI    |-         |
 |-              |A9/D9          |23      |24      |D10/A10     |-         |
 
 
 ShutDownBot_IN= señal que recibe del botón de encendido/apagado.
 
-Boot_IN= señal de la raspberry que indica High=No apagar, Low=Se puede apagar.
+RaspState_IN = señal de la raspberry que indica High=No apagar, Low=Se puede apagar.
 
-OnOff_OUT= señal que enciende el transistor, permitiendo alimentar todo el sistema. High=encendido todo el sistema, Low=Se corta la corriente de todo el sistema (A no ser que se apreiete el botón de encendido) 
+PowerOnOff_OUT= señal que enciende el transistor, permitiendo alimentar todo el sistema. High=encendido todo el sistema, Low=Se corta la corriente de todo el sistema (A no ser que se apreiete el botón de encendido) 
 
 RaspOff_OUT=señal que indica a la raspberry que comience el proceso de preparación de apagado. (High 0.5 segundos es un reset, por más de 2  sec es comienzo de proceso de apagado, y por más de 8 sec es apagado forzado).
 
