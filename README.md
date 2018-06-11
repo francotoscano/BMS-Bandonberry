@@ -12,8 +12,8 @@ Uso de pines:
 |-              |RX/D1          |3       |4       |GND         |-         | 
 |-              |GND            |5       |6       |RESET       |-         | 
 |-              |GND            |7       |8       |Vcc (5V)    |-         | 
-|-              |SDA/D2         |9       |10      |A3          |-         | 
-|-              |SCL/D3         |11      |12      |A2          |-         |
+|SDA_Fuel_Guage |SDA/D2         |9       |10      |A3          |-         | 
+|SCL_Fuel_Guage |SCL/D3         |11      |12      |A2          |-         |
 |-              |A6/D4          |13      |14      |A1          |-         |
 |ShutDownBot_IN |D5             |15      |16      |A0          |-         |
 |RaspState_IN   |A7/D6          |17      |18      |D15/SCLK    |-         |
