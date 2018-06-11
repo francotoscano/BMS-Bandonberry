@@ -44,3 +44,15 @@ SHUTDOWN_IN = 12    conectado a        RaspOff_OUT=8
 BOOT_OUT = 16       conectado a        RaspState_IN=6         
 
 
+
+
+## Medidor de batería
+Utilizaremos un integrado MAX 17043 como medidor de la carga de la batería. [Algo más de info técnica] (https://www.maximintegrated.com/en/products/power/battery-management/MAX17043.html)
+
+Para poder usarlo en Arduino nos bajamos la librerías de aqui:
+[Librerias del MAX 17043 Fuel gauge](https://github.com/awelters/LiPoFuelGauge)
+
+Sobre la programación y funciones de la librería
+ [Funciones de libreria] (http://www.lucadentella.it/max17043-libreria-per-arduino/)
+
+
