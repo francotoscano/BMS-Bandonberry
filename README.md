@@ -14,12 +14,12 @@ Uso de pines:
 |-              |GND            |7       |8       |Vcc (5V)    |-         | 
 |SDA_Fuel_Guage |SDA/D2         |9       |10      |A3          |-         | 
 |SCL_Fuel_Guage |SCL/D3         |11      |12      |A2          |-         |
-|-              |A6/D4          |13      |14      |A1          |-         |
-|ShutDownBot_IN |D5             |15      |16      |A0          |-         |
-|RaspState_IN   |A7/D6          |17      |18      |D15/SCLK    |-         |
-|PowerOnOff_OUT |D7             |19      |20      |D14/MISO    |-         |
-|RaspOff_OUT    |A8/D8          |21      |22      |D16/MOSI    |-         |
-|-              |A9/D9          |23      |24      |D10/A10     |-         |
+|AlertLowBat_IN |A6/D4          |13      |14      |A1          |-         |
+|QuickStart_OUT |D5             |15      |16      |A0          |-         |
+|ShutDownBot_IN |A7/D6          |17      |18      |D15/SCLK    |-         |
+|RaspState_IN   |D7             |19      |20      |D14/MISO    |-         |
+|PowerOnOff_OUT |A8/D8          |21      |22      |D16/MOSI    |-         |
+|RaspOff_OUT    |A9/D9          |23      |24      |D10/A10     |-         |
 
 
 ShutDownBot_IN= señal que recibe del botón de encendido/apagado.
