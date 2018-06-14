@@ -35,6 +35,8 @@ OBS:La señal de Boot_IN se baja pero la luz de la raspberry se termina de apaga
 
 ![alt text](https://github.com/francotoscano/BMS-Bandonberry/blob/master/EsquematicoBoton.jpg)
 
+![alt text](https://github.com/francotoscano/BMS-Bandonberry/blob/master/EsquematicoTotalBMS.jpg)
+
 
 
 ### Conexión con la Raspberry
