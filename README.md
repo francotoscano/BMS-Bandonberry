@@ -37,7 +37,7 @@ OBS:La señal de Boot_IN se baja pero la luz de la raspberry se termina de apaga
 
 
 
-EN RASPBERRY
+### EN RASPBERRY
 
 SHUTDOWN_IN = 12    conectado a        RaspOff_OUT=8
 
