@@ -33,7 +33,7 @@ RaspOff_OUT=señal que indica a la raspberry que comience el proceso de preparac
 
 OBS:La señal de Boot_IN se baja pero la luz de la raspberry se termina de apagar 8 sec después, considerar ese delay en el código
 
-FOTO DEL CIRCUITO DEL BOTON
+![alt text](https://github.com/francotoscano/BMS-Bandonberry/blob/master/EsquematicoBoton.jpg)
 
 
 
