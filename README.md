@@ -19,7 +19,7 @@ Uso de pines:
 |ShutDownBot_IN |A7/D6          |17      |18      |D15/SCLK    |-         |
 |RaspState_IN   |D7             |19      |20      |D14/MISO    |-         |
 |PowerOnOff_OUT |A8/D8          |21      |22      |D16/MOSI    |-         |
-|RaspOff_OUT    |A9/D9          |23      |24      |D10/A10     |-         |
+|RaspOff_OUT    |A9/D9          |23      |24      |D10/A10     |SafeVoltageBat_Out |
 
 
 ShutDownBot_IN= señal que recibe del botón de encendido/apagado.
@@ -29,6 +29,8 @@ RaspState_IN = señal de la raspberry que indica High=No apagar, Low=Se puede ap
 PowerOnOff_OUT= señal que enciende el transistor, permitiendo alimentar todo el sistema. High=encendido todo el sistema, Low=Se corta la corriente de todo el sistema (A no ser que se apreiete el botón de encendido) 
 
 RaspOff_OUT=señal que indica a la raspberry que comience el proceso de preparación de apagado. (High 0.5 segundos es un reset, por más de 2  sec es comienzo de proceso de apagado, y por más de 8 sec es apagado forzado).
+
+SafeVoltageBat_Out: Señal que habilita la alimentación de la raspberry una vez que se chequé el voltaje de la batería. (AÚN NO ESTA EN EL PLANO)
 
 
 OBS:La señal de Boot_IN se baja pero la luz de la raspberry se termina de apagar 8 sec después, considerar ese delay en el código
