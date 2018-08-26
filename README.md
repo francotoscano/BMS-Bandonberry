@@ -12,7 +12,7 @@ Uso de pines:
 |-              |RX/D1          |3       |4       |GND         |-         | 
 |-              |GND            |5       |6       |RESET       |-         | 
 |-              |GND            |7       |8       |Vcc (5V)    |-         | 
-|SDA_Fuel_Guage |SDA/D2         |9       |10      |A3          |-         | 
+|SDA_Fuel_Guage |SDA/D2         |9       |10      |A3          |RBatCheck_OUT| 
 |SCL_Fuel_Guage |SCL/D3         |11      |12      |A2          |-         |
 |AlertLowBat_IN |A6/D4          |13      |14      |A1          |-         |
 |QuickStart_OUT |D5             |15      |16      |A0          |-         |
