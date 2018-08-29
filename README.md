@@ -8,7 +8,7 @@ Uso de pines:
 
 |uso            |función        |pin     |pin     |función     |uso       |
 |---------------|---------------|--------|--------|------------|----------|
-|RBatCheck_OUT  |TX/D0          |1       |2       |RAW         |-         | 
+|-              |TX/D0          |1       |2       |RAW         |-         | 
 |-              |RX/D1          |3       |4       |GND         |-         | 
 |-              |GND            |5       |6       |RESET       |-         | 
 |-              |GND            |7       |8       |Vcc (5V)    |-         | 
@@ -18,7 +18,7 @@ Uso de pines:
 |QuickStart_OUT |D5             |15      |16      |A0          |-         |
 |ShutDownBot_IN |A7/D6          |17      |18      |D15/SCLK    |-         |
 |RaspState_IN   |D7             |19      |20      |D14/MISO    |-         |
-|PowerOnOff_OUT |A8/D8          |21      |22      |D16/MOSI    |-         |
+|PowerOnOff_OUT |A8/D8          |21      |22      |D16/MOSI    |RBatCheck_OUT          |
 |RaspOff_OUT    |A9/D9          |23      |24      |D10/A10     |SafeVoltageBat_Out |
 
 
