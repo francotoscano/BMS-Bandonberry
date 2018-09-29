@@ -59,3 +59,7 @@ Sobre la programación y funciones de la librería
  [Funciones de libreria] (http://www.lucadentella.it/max17043-libreria-per-arduino/)
 
 
+## Display OLED 091
+Instalar las librerías:
+https://github.com/adafruit/Adafruit-GFX-Library
+https://github.com/adafruit/Adafruit_SSD1306
