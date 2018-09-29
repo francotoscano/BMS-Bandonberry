@@ -16,7 +16,7 @@ Uso de pines:
 |SCL_Fuel_Guage |SCL/D3         |11      |12      |A2          |-                 |
 |AlertLowBat_IN |A6/D4          |13      |14      |A1          |-                 |
 |QuickStart_OUT |D5             |15      |16      |A0          |-                 |
-|ShutDownBot_IN |A7/D6          |17      |18      |D15/SCLK    |-                 |
+|ShutDownBot_IN |A7/D6          |17      |18      |D15/SCLK    |EnterBot_IN       |
 |RaspState_IN   |D7             |19      |20      |D14/MISO    |SelectBot_IN      |
 |PowerOnOff_OUT |A8/D8          |21      |22      |D16/MOSI    |RBatCheck_OUT     |
 |RaspOff_OUT    |A9/D9          |23      |24      |D10/A10     |SafeVoltageBat_Out|
